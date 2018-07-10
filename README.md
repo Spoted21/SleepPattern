@@ -57,7 +57,8 @@ abline(h=mean(mydata$value/60),col="green",lty=2)
 abline(v= as.numeric( startDate),col="red" )
 dev.off()
 ```
-
+# Sample Output
+![](SleepPerDay.png)
 
 ## Model Fitting
 Start with something simple like a 2 sample t-test. First, we need to examine what the distributions for sleep look like pre and post.
