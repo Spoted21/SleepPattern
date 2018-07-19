@@ -61,7 +61,12 @@ dev.off()
 ![](SleepPerDay.png)
 
 ## Model Fitting
-Start with something simple like a 2 sample t-test. First, we need to examine what the distributions for sleep look like pre and post.
+Start with something simple like a 2 sample t-test. First, we need to examine what the distributions for sleep look like pre and post. One assumption of the t-test that we should check is called equal variance. We want to make sure that the variation in the two samples or time periods is not widely different. If we find evidence of a difference in variance then we will proceed with a Welch's T-test which is able to handle unequal variance.
+
+```{r}
+# Check for equality of variance 
+
+```
 
 
 
